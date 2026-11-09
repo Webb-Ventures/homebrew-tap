@@ -1,6 +1,6 @@
 cask "mergepond" do
-  version "1.0.3"
-  sha256 "22b8f61525cb73b31a4b1d945cacf655c794f0ac409d1656accd2265c5db7625"
+  version "1.0.4"
+  sha256 "61b6dd2ded383d3710509edb8cb8c512aeb61eb8540d8aa1e6ccc7dfa5f31138"
 
   url "https://api.mergepond.dev/releases/darwin/#{version}/Mergepond_#{version}_universal.dmg",
       verified: "api.mergepond.dev/releases/"
