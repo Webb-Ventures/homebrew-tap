@@ -1,6 +1,6 @@
 cask "mergepond" do
-  version "1.0.5"
-  sha256 "df44cd7a3125f86e6563b396ffc543e035ba522bd28b7a0f54e09f778ff0d29d"
+  version "1.0.6"
+  sha256 "c7e6c4a7365b44e56119efb4076ecaaded1826f11097c3eaa29006b571d8d61a"
 
   url "https://api.mergepond.dev/releases/darwin/#{version}/Mergepond_#{version}_universal.dmg",
       verified: "api.mergepond.dev/releases/"
@@ -19,6 +19,7 @@ cask "mergepond" do
   depends_on macos: ">= :ventura"
 
   app "Mergepond.app"
+  binary "#{appdir}/Mergepond.app/Contents/Resources/agents/pond"
 
   zap trash: [
     "~/Library/Application Support/dev.mergepond.app",
