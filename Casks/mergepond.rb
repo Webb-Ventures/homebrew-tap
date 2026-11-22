@@ -16,7 +16,7 @@ cask "mergepond" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Mergepond.app"
   binary "#{appdir}/Mergepond.app/Contents/Resources/agents/pond"
