@@ -2,8 +2,7 @@ cask "mergepond" do
   version "1.3.0"
   sha256 "5257d8003420d5c4bcfc77df34dabcb4c3d1732f00583f5ff57f4853e1873822"
 
-  url "https://api.mergepond.dev/releases/darwin/#{version}/Mergepond_#{version}_universal.dmg",
-      verified: "api.mergepond.dev/releases/"
+  url "https://api.mergepond.dev/releases/darwin/#{version}/Mergepond_#{version}_universal.dmg"
   name "Mergepond"
   desc "Git client for worktrees, workspaces and remote repos"
   homepage "https://mergepond.dev/"
